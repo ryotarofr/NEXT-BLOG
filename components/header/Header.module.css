@@ -10,7 +10,7 @@
 
 .logo {
   font-size: 24px;
-  color: white;
+  color: rgb(207, 154, 154);
   font-weight: bold;
   margin-left: 20px;
 }
@@ -21,6 +21,7 @@
   min-width: 200px;
   height: 30px;
   background-color: white;
+  border: 0.5px solid black;
   border-radius: 25px;
   display: flex;
 }
