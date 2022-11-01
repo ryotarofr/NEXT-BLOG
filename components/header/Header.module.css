@@ -1,0 +1,66 @@
+.headerContainer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: sticky; /* スクロール固定  */
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.searchbar {
+  width: 60%;
+  max-width: 550px;
+  min-width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+}
+
+.searchIcon {
+  font-size: 20px !important ;
+  color: black;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.searchInput {
+  border: none;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  width: 80%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.headerLeft {
+  flex: 3;
+}
+
+.headerCenter {
+  flex: 7;
+  display: flex;
+  justify-content: center;
+}
+
+.headerRight {
+  flex: 2;
+  display: flex;
+  justify-content: right;
+}
+
+.headerRightItems {
+  padding-right: 40px;
+}
