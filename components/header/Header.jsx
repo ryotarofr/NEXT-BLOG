@@ -23,8 +23,12 @@ export function Header() {
         </div>
       </div>
       <div className={styles.headerRight}>
-        <div className={styles.headerRightItems}>
-          <NotificationsNoneIcon className={styles.notificationsNoneIcon} />
+        <div className={styles.headerIcomItems}>
+          <div className={styles.headerIconItem}>
+            <NotificationsNoneIcon className={styles.notificationsNoneIcon} />
+            <span className={styles.headerIconBadge}>1</span>
+          </div>
+          <img src="/person/1.png" alt="" className={styles.headerImg} />
         </div>
       </div>
     </div>

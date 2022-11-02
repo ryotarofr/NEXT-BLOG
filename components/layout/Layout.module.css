@@ -1,0 +1,11 @@
+.layoutWrapper {
+  display: flex;
+}
+
+.sidebarWrapper {
+  flex: 2.5;
+}
+
+.mainWrapper {
+  flex: 9;
+}
