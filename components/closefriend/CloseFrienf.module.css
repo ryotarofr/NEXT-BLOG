@@ -1,0 +1,30 @@
+.sidebarRegisterListItem {
+  display: flex;
+  align-items: center;
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+}
+
+.sidebarRegisterListItem:hover {
+  background-color: rgba(190, 190, 190, 0.378);
+}
+
+.sidebarRegisterListImg {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 18px;
+  margin-top: 3px;
+}
+
+.sidebarRegisterListName {
+  font-size: 22px;
+  padding-bottom: 3px;
+  /* テキストがはみ出す際に「...」で省略 */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

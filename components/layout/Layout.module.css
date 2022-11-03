@@ -3,9 +3,9 @@
 }
 
 .sidebarWrapper {
-  flex: 2.5;
+  flex: 2;
 }
 
 .mainWrapper {
-  flex: 9;
+  flex: 10.5;
 }

@@ -1,3 +1,21 @@
+.scroll_bar {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.scroll_bar::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll_bar::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: white;
+}
+.scroll_bar:hover::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgb(180, 180, 180);
+}
+
 .main {
   flex: 9.5;
+  height: 100vh;
 }
