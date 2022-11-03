@@ -1,5 +1,23 @@
+.scroll_bar {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.scroll_bar::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll_bar::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: white;
+}
+.scroll_bar:hover::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgb(180, 180, 180);
+}
+
 .sidebar {
-  flex: 2.5;
+  min-width: 280px;
+  max-width: 320px;
   height: 100vh;
 }
 
@@ -8,7 +26,7 @@
 }
 
 .sidebarIcon {
-  font-size: 32px !important;
+  font-size: 24px !important;
   margin-right: 18px;
   padding-bottom: 3px;
 }
@@ -34,7 +52,6 @@
 
 .sidebarListItemText {
   font-size: 16px;
-  padding-top: 3px;
 }
 
 .sidebarHr {
@@ -42,4 +59,17 @@
   border: 0px;
   height: 1px;
   background-color: rgb(200, 200, 200);
+}
+
+.sidebarRegister {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebarRegisterList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
