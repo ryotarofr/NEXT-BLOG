@@ -20,6 +20,7 @@ mongoose
   });
 
 //ミドルウェア
+app.use(express.json()); //json形式でデータを格納
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/posts", postRoutes);

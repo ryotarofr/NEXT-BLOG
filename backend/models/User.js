@@ -45,3 +45,5 @@ const UserSchema = new mongoose.Schema(
   // User情報の作成日時を表示
   { timestamps: true }
 );
+
+module.exports = mongoose.model("User", UserSchema);
